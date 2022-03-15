@@ -1,0 +1,57 @@
+/* navbar */
+/* Tombol */
+.tombol{
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+/* Tombol end */
+.navbar .container .navbar-brand img{
+    height: 50px;
+}
+/* navbar end*/
+
+/* jumbutron */
+.jumbotron{
+    background-image: url(Asset/PAU.jpg);
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+.jumbotron .container h1, p{
+    color: #ffffff;
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgb(0,0,0, 0.5), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+  }
+/* jumbutron end*/
+.about{
+    height: 100vh;
+}
+/* ver deks */
+@media (min-width:992px) {
+    .nav-link {
+        text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
+    }
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 20px;
+        margin-bottom: -8px;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid blue;
+        width: 50%;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        margin: auto;
+
+    }
+}
+/* ver deks end*/

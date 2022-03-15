@@ -1,0 +1,73 @@
+/* navbar */
+/* Tombol */
+.tombol{
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+/* Tombol end */
+.navbar .container .navbar-brand img{
+    height: 50px;
+}
+/* navbar end*/
+/* Layanan */
+.servis{
+  height: 100vh;
+}
+.servis .container{
+  margin-top: 20px;
+}
+.servis .container .row .col-md-5{
+  margin-bottom: 25px;
+}
+.servis .container .row .col-md-5 .card img{
+  width: 160px;
+  height: 130px;
+  margin: auto;
+}
+
+
+/* Layanan End */
+
+/* ver deks */
+@media (min-width:992px) {
+    .nav-link {
+        text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
+    }
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 20px;
+        margin-bottom: -8px;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid blue;
+        width: 50%;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        margin: auto;
+
+    }
+/* layanan */
+.servis .container .row {
+  margin-bottom: 15px;
+}
+/* Layanan End */
+}
+/* ver deks end*/
+
+/* ver tab */
+@media (min-width: 768px) {
+/* Layanan */
+.servis .container .row .col-md-5 .card{
+  padding: 0 !important;
+}
+.servis .container .row .col-md-5 .card img{
+  width: 180px;
+  height: 150px;
+  padding: 5px;
+}
+
+/* Layanan End */
+}
+/* ver tab end */
